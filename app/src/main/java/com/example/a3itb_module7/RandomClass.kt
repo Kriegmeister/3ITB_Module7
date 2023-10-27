@@ -8,7 +8,8 @@ class RandomClass {
         {
             try {
                 var random = Random
-                var resultnum = random.nextInt(49,50)
+                var resultnum = random.nextInt(randnum)
+                Log.i("Result_garma", resultnum.toString())
                 return resultnum
             } catch (e: Exception) {
                 Log.e("error_garma", e.message.toString())
